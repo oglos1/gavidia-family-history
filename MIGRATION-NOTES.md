@@ -19,7 +19,7 @@ Scanned `index.html`, all asset filenames, JPG EXIF, MP3 headers/strings, and bo
 
 | Finding | Status |
 |---|---|
-| Password gate `12345` in `index.html` JS (1 occurrence) | **Intentional but visible.** Client-side only — anyone viewing the GitHub repo source can read it. Same exposure as today on the artifact platform (content is embedded in the HTML either way). Carlos must understand the gate is a courtesy screen, not real security. |
+| Password gate `54321` in `index.html` JS (1 occurrence) | **Intentional but visible.** Client-side only — anyone viewing the GitHub repo source can read it. Same exposure as today on the artifact platform (content is embedded in the HTML either way). Carlos must understand the gate is a courtesy screen, not real security. |
 | `ogloss@gmail.com` in contribution `mailto:` links (5 occurrences) | **Intentional.** Carlos designated this as the family contribution contact. It will be in public repo source — same as on the live site today. |
 | `9789996123` | **False positive** — fragments of ISBN numbers (9789996123948 / 9789996123955) for the history volumes. Not a phone number. |
 | API keys / tokens / secrets | **None found.** |
